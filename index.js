@@ -33,7 +33,7 @@ function myPlugin() {
           const files = FastGlob.sync(
             path.resolve(path.dirname(id), fileToImport)
           );
-          console.log('here', files);
+          // console.log('here', files);
           return [line, files.map((file) => `@import "${file}";`).join('\n')];
         });
 
@@ -41,7 +41,7 @@ function myPlugin() {
         for (const [search, replace] of toReplace) {
           file = file.replace(search, replace);
         }
-        console.log(file);
+        // console.log(file);
         return file;
         // const files = FastGlob.sync([...globPatterns]);
         // console.log({ files });
