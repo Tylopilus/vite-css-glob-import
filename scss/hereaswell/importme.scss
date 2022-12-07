@@ -1,3 +1,6 @@
 body {
   background: #ff0;
 }
+h1 {
+  @include marginTop('sm');
+}

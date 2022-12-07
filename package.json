@@ -1,8 +1,9 @@
 {
-  "name": "scss-glob",
+  "name": "vite-css-glob-import",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,7 +18,6 @@
   },
   "dependencies": {
     "fast-glob": "^3.2.12",
-    "glob": "^8.0.3",
     "sass": "^1.56.1"
   }
 }

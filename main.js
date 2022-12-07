@@ -1,4 +1,4 @@
-import './src/styles/main.scss';
+import './src/main.scss';
 import javascriptLogo from './javascript.svg';
 import { setupCounter } from './counter.js';
 
