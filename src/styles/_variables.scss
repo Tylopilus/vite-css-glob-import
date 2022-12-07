@@ -1,0 +1,84 @@
+//== Font
+
+$font-family: 'UniversLTW02-55Roman', 'UniversLTCYRW10-55Roman',
+  'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size: 16px;
+$font-height: 1.75;
+$font-universe-roman: 'UniversLTW02-55Roman', 'UniversLTCYRW10-55Roman';
+$font-universe-roman-bold: 'UniversLTW02-65Bold', 'UniversLTCYRW10-65Bold';
+$font-universe-std: 'UniversLTW02-45Light', 'UniversLTCYRW10-45Light';
+
+//== Color
+
+// Normal mode
+$color-foreground: #202020;
+$color-background: #ffffff;
+$color-foreground-header: #222222;
+$color-separator: #c8c8c8;
+$color-link: #2020e0;
+$color-grey: #f3f3f3;
+$color-border: #979797;
+$color-dark-grey: #4c4c4c;
+$color-border-key: #e0e2ea;
+$color-headline-red: #e20613;
+$color-divider-line: #ddd;
+$color-text: #424242;
+$color-success: #3c763d;
+
+// Dark mode
+$color-foreground-dark: #ffffff;
+$color-background-dark: #1d1d1b;
+$color-separator-dark: #4c4c4c;
+$color-link-dark: invert($color-link);
+$color-inactive-tab: #b2b2b1;
+$color-lightbox-bg: #424242;
+
+//Buttons
+$color-primary-button: #e20613;
+$border-secondary-button: #e20714;
+$color-primary-button-hover: #b00511;
+$color-button-bg-disabled: #f6f6f6;
+
+$newshub-color-red: #b30612;
+
+// yext search bar
+$border-color: #e3e3e3;
+$focus-border-color: #222222;
+
+// Margins
+$max-width-page: 1232px;
+
+// Mobile
+$mobile-dimension: 769px;
+$s-screen: 767px;
+$md-screen: 768px;
+$lg-screen: 1024px;
+
+// Border radius
+$border-radius-top-l-bottom-r-narrow: 20px 0 20px 0;
+$border-radius-top-l-bottom-r: 40px 0 40px 0;
+$border-radius-top-l: 40px 0 0 0;
+$border-radius-bottom-r: 0 0 40px 0;
+$border-radius-top-r: 0 40px 0 0;
+$border-radius-bottom-l: 0 0 0 40px;
+
+$iconsPath: '../resources/images/';
+
+//== Alerts
+$alert-padding: 15px !default;
+
+$alert-success-bg: #3c763d !default;
+$alert-success-text: #dff0d8 !default;
+$alert-success-border: darken(adjust-hue($alert-success-bg, -10), 5%) !default;
+
+$alert-info-bg: #d9edf7 !default;
+$alert-info-text: #31708f !default;
+$alert-info-border: darken(adjust-hue($alert-info-bg, -10), 7%) !default;
+
+$alert-warning-bg: #fcf8e3 !default;
+$alert-warning-text: #8a6d3b !default;
+$alert-warning-border: darken(adjust-hue($alert-warning-bg, -10), 5%) !default;
+
+$alert-danger-bg: #a94442 !default;
+$alert-danger-text: #f2dede !default;
+$alert-danger-border: darken(adjust-hue($alert-danger-bg, -10), 5%) !default;
