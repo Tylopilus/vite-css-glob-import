@@ -25,8 +25,6 @@ export default function myPlugin() {
 
         // console.log({ globPatterns });
 
-        const currentPath = path.resolve(__dirname);
-        // console.log({ currentPath });
         const files = FastGlob.sync([...globPatterns]);
         console.log({ files });
         const res = files
