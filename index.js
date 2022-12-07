@@ -11,7 +11,7 @@ function myPlugin() {
         // console.log({ id });
         // read file
         let file = fs.readFileSync(id, 'utf-8');
-        console.log(file);
+        // console.log(file);
         // read file line by line to find all statements that start with @import and contain a glob pattern
         const lines = file.split('\n');
         const importLines = lines.filter((line) => line.startsWith('@import'));
