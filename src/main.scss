@@ -1,10 +1,3 @@
-// @import './*.scss';
-// @import './styles/*.scss';
-
-@import './styles/variables';
-@import './styles/mixins.scss';
+@import 'variables';
+@import 'styles';
 @import '../scss/**/*.scss';
-
-body {
-  background-color: $alert-success-bg;
-}
