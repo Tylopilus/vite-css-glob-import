@@ -2,6 +2,9 @@
   "name": "vite-css-glob-import",
   "private": false,
   "version": "0.0.5",
+  "author": "Helge Ahrens",
+  "description": "Vite plugin to import SCSS files using glob patterns",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -16,5 +19,9 @@
   "dependencies": {
     "fast-glob": "^3.2.12",
     "sass": "^1.56.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tylopilus/vite-css-glob-import"
   }
 }
